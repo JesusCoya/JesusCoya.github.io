@@ -1,7 +1,7 @@
 # Configurations
-title:            Jekyll Gitbook
+title:            InformaticApp
 longtitle:        Jekyll Gitbook
-author:           HE Tao
+author:           Jesús Brayan Coya Huiza
 email:            sighingnow@gmail.com
 description: >
   Build Jekyll site with the GitBook style.
@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+baseurl:          'https://jesuscoya.github.io'
 rss:              RSS
 
 toc:

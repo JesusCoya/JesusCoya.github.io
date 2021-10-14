@@ -1,30 +1,12 @@
----
-title: "Math"
-author: "Jesus"
-date: "14/10/2021"
-output: html_document
----
+### 1. Algebra  
+$$E=\left[ \left(  \frac{5^{-2}\cdot 2^{-\frac{3}{2}} }{3^{-2} \cdot 7^{-\frac{2}{3}}}\right)^{24}  \div \left(  \frac{5^{-3}\cdot 2^{-2} }{3^{-3} \cdot 7^{-1}}\right)^{16}  \right]^{-1}$$
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
+### 2. Números Complejos
+$$\sqrt{\frac{4}{9}} \left( \sqrt{\frac{25}{36}}-\sqrt{-\frac{4}{25}}  \right)$$
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### 3. Lógica de Proposiciones
+$$p \rightarrow q \land p \rightarrow r \leftrightarrow p \rightarrow p \rightarrow  (q \land r)$$
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

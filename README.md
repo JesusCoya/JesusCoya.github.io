@@ -1,4 +1,4 @@
-# Jekyll GitBook
+# InformaticApp
 
 Make Jelly site have a GitBook look!
 

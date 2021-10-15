@@ -1,0 +1,14 @@
+### 1. Vectores
+#### 1.1. Verificar si la suma de vectores de conmutativa con:
+$$\vec{x} = (1,4,10), \quad \vec{v}=(1,2,3), \quad \vec{u}=(0,0,0) $$
+
+
+### 2. Movimiento Rectilíneo uniforme Uniforme
+#### 2.1. Vas en un vehículo hacia el sur con una velocidad $v=\frac{km}{h}$, determine que distancia recorre el vehículo en 12 minutos, recordar:
+$$x = \vec{v}*t$$
+
+### 3. Una tabla es dispara por un cañon con una velocidad inicial $\vec{v}_0 = 50\hat{i} + 86.6 \hat{j} \left[ \frac{m}{s} \right]$
+
+
+
+

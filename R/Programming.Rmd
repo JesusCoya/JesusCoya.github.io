@@ -1,12 +1,13 @@
-### 1. Algoritmos Secuenciales
-#### ¿Cuál es la salida del siguiente algorítmo?
+#### 1. Algoritmos Secuenciales
+##### ¿Cuál es la salida del siguiente algorítmo?
 ```{cpp}
   cout << "Hola Mundo";
 ```
+ID: **11**
 
 
-### 2.Algorítmos Condicionales
-#### Encontrar la salida con $n=5$
+#### 2.Algorítmos Condicionales
+##### Encontrar la salida con $n=5$
 ```{java}
   int n = 5;
   if(n%2==0){
@@ -15,10 +16,10 @@
     System.out.println(n + " es número impar");
   }
 ```
+ID: **12**
 
-
-### 3. Algorítmos Iterativos
-#### Encontrar la salida del siguiente algorítmo
+#### 3. Algorítmos Iterativos
+##### Encontrar la salida del siguiente algorítmo
 ```{py}
 n = int(input("n"))
 s = 0
@@ -27,4 +28,31 @@ for i in range(n):
   
 print(s)
 ```
+ID: **13**
+
+#### 4. Algoritmos Recursivos
+##### 4.1. Encontrar la salida para el siguiente algorítmo recursivo con $n=5$
+```{java}
+public static long factorialRecursivo(int n) {   
+	if(n==0 || n==1) {							
+		return 1;								
+	}
+	return n*factorialRecursivo(n-1);			
+}
+```
+ID: **14**
+
+##### 4.2. Encontrar la salida para el siguiente algorítmo recursivo con $n=10$
+```{java}
+public static int sumaDigRec(int n) {
+	if(n<10) {
+		return n;
+	}else {
+		return n%10 + sumaDig(n/10);
+	}
+}
+```
+ID: **15**
+
+
 

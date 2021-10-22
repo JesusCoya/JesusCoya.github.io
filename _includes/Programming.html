@@ -165,35 +165,62 @@ pre code {
 </div>
 
 
-<div id="algoritmos-secuenciales" class="section level3">
-<h3>1. Algoritmos Secuenciales</h3>
-<div id="cuál-es-la-salida-del-siguiente-algorítmo" class="section level4">
-<h4>¿Cuál es la salida del siguiente algorítmo?</h4>
+<div id="algoritmos-secuenciales" class="section level4">
+<h4>1. Algoritmos Secuenciales</h4>
+<div id="cuál-es-la-salida-del-siguiente-algorítmo" class="section level5">
+<h5>¿Cuál es la salida del siguiente algorítmo?</h5>
 <pre class="cpp"><code>  cout &lt;&lt; &quot;Hola Mundo&quot;;</code></pre>
+<p>ID: <strong>11</strong></p>
 </div>
 </div>
-<div id="algorítmos-condicionales" class="section level3">
-<h3>2.Algorítmos Condicionales</h3>
-<div id="encontrar-la-salida-con-n5" class="section level4">
-<h4>Encontrar la salida con <span class="math inline">\(n=5\)</span></h4>
+<div id="algorítmos-condicionales" class="section level4">
+<h4>2.Algorítmos Condicionales</h4>
+<div id="encontrar-la-salida-con-n5" class="section level5">
+<h5>Encontrar la salida con <span class="math inline">\(n=5\)</span></h5>
 <pre class="java"><code>  int n = 5;
   if(n%2==0){
     System.out.println(n + &quot; es número par&quot;);
   }else{
     System.out.println(n + &quot; es número impar&quot;);
   }</code></pre>
+<p>ID: <strong>12</strong></p>
 </div>
 </div>
-<div id="algorítmos-iterativos" class="section level3">
-<h3>3. Algorítmos Iterativos</h3>
-<div id="encontrar-la-salida-del-siguiente-algorítmo" class="section level4">
-<h4>Encontrar la salida del siguiente algorítmo</h4>
+<div id="algorítmos-iterativos" class="section level4">
+<h4>3. Algorítmos Iterativos</h4>
+<div id="encontrar-la-salida-del-siguiente-algorítmo" class="section level5">
+<h5>Encontrar la salida del siguiente algorítmo</h5>
 <pre class="py"><code>n = int(input(&quot;n&quot;))
 s = 0
 for i in range(n):
   s = s + i
   
 print(s)</code></pre>
+<p>ID: <strong>13</strong></p>
+</div>
+</div>
+<div id="algoritmos-recursivos" class="section level4">
+<h4>4. Algoritmos Recursivos</h4>
+<div id="encontrar-la-salida-para-el-siguiente-algorítmo-recursivo-con-n5" class="section level5">
+<h5>4.1. Encontrar la salida para el siguiente algorítmo recursivo con <span class="math inline">\(n=5\)</span></h5>
+<pre class="java"><code>public static long factorialRecursivo(int n) {   
+    if(n==0 || n==1) {                          
+        return 1;                               
+    }
+    return n*factorialRecursivo(n-1);           
+}</code></pre>
+<p>ID: <strong>14</strong></p>
+</div>
+<div id="encontrar-la-salida-para-el-siguiente-algorítmo-recursivo-con-n10" class="section level5">
+<h5>4.2. Encontrar la salida para el siguiente algorítmo recursivo con <span class="math inline">\(n=10\)</span></h5>
+<pre class="java"><code>public static int sumaDigRec(int n) {
+    if(n&lt;10) {
+        return n;
+    }else {
+        return n%10 + sumaDig(n/10);
+    }
+}</code></pre>
+<p>ID: <strong>15</strong></p>
 </div>
 </div>
 
@@ -241,6 +268,5 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
-
 </body>
 </html>

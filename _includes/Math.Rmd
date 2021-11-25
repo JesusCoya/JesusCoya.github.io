@@ -46,7 +46,6 @@ ID: **M-05**
 #### 6. Series
 ¿Nombre de la siguiente serie?
 ```{r}
-x<-c()
 for (n in 0:10) {
   cat(((1/sqrt(5))*((1+sqrt(5))/2)**n)-((1/sqrt(5))*((1-sqrt(5))/2)**n), " ")
 }

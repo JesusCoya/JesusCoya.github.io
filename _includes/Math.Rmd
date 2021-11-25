@@ -1,0 +1,45 @@
+#### 1. Algebra  
+$$A=\left[ \left(  \frac{5^{-2}\cdot 2^{-\frac{3}{2}} }{3^{-2} \cdot 7^{-\frac{2}{3}}}\right)^{24}  \div \left(  \frac{5^{-3}\cdot 2^{-2} }{3^{-3} \cdot 7^{-1}}\right)^{16}  \right]^{-1}$$
+ID: **01**
+
+#### 2. Números Complejos
+$$B=\sqrt{\frac{4}{9}} \left( \sqrt{\frac{25}{36}}-\sqrt{-\frac{4}{25}}  \right)$$
+ID: **02**
+
+#### 3. Lógica de Proposiciones
+$$C=p \rightarrow q \land p \rightarrow r \leftrightarrow p \rightarrow p \rightarrow  (q \land r)$$
+ID: **03**
+
+#### 4. Logarítmos
+Dado el sistema:
+$$ \left\{
+\begin{array}{ l }
+10^x+10^y=a \\
+x-y=log\left( \frac{a+b}{a-b}\right)
+\end{array}
+\right. $$
+Calcular: $10^x-10^y$:
+
+* $2a$
+* $a$
+* $2b$
+* $b$
+* $a+b$
+
+ID: **04**
+
+#### 5. Ecuación lineal
+Dada la gráfica, calcular la pendiente de la siguiente función lineal que pasa por el punto $(-4,-2)$ y $(0,2)$:
+Recuerde que: $y=ax+b \rightarrow y = mx+b$ donde $m=\frac{y_2-y_1}{x_2-x_1}$
+```{r}
+y <- function(x){3*x+2}
+plot(y,from=-5,to=5, lwd=2,col="red", main="Función Lineal")
+abline(h = 0, v = 0,
+       col = c("black", "black"),
+       lwd = 2,
+       lty = 2:2)
+points(x=-2,y=-4, lwd=6, col="blue")
+points(x=0,y=2, lwd=6, col="blue")
+```
+
+ID: **05**

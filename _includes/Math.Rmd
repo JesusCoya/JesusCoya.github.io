@@ -43,6 +43,15 @@ points(x=0,y=2, lwd=6, col="blue")
 ```
 ID: **M-05**
 
+#### 6. Distribución $\chi^2$
+Dada la gráfica, cual es el valor máximo de $x$?
+```{r}
+curve(dchisq(x,1),xlim=c(0,60),ylim=c(0,0.4))
+for(v in 2:50){
+  curve(dchisq(x,v),add=T,col=v)
+}
+```
+ID: **M-06**
 
 
 

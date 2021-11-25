@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -170,7 +172,7 @@ pre code {
 <div id="cuál-es-la-salida-del-siguiente-algorítmo" class="section level5">
 <h5>¿Cuál es la salida del siguiente algorítmo?</h5>
 <pre class="cpp"><code>  cout &lt;&lt; &quot;Hola Mundo&quot;;</code></pre>
-<p>ID: <strong>11</strong></p>
+<p>ID: <strong>P-01</strong></p>
 </div>
 </div>
 <div id="algorítmos-condicionales" class="section level4">
@@ -183,7 +185,7 @@ pre code {
   }else{
     System.out.println(n + &quot; es número impar&quot;);
   }</code></pre>
-<p>ID: <strong>12</strong></p>
+<p>ID: <strong>P-02</strong></p>
 </div>
 </div>
 <div id="algorítmos-iterativos" class="section level4">
@@ -196,7 +198,7 @@ for i in range(n):
   s = s + i
   
 print(s)</code></pre>
-<p>ID: <strong>13</strong></p>
+<p>ID: <strong>P-03</strong></p>
 </div>
 </div>
 <div id="algoritmos-recursivos" class="section level4">
@@ -209,7 +211,7 @@ print(s)</code></pre>
     }
     return n*factorialRecursivo(n-1);           
 }</code></pre>
-<p>ID: <strong>14</strong></p>
+<p>ID: <strong>P-04</strong></p>
 </div>
 <div id="encontrar-la-salida-para-el-siguiente-algorítmo-recursivo-con-n10" class="section level5">
 <h5>4.2. Encontrar la salida para el siguiente algorítmo recursivo con <span class="math inline">\(n=10\)</span></h5>
@@ -220,8 +222,17 @@ print(s)</code></pre>
         return n%10 + sumaDig(n/10);
     }
 }</code></pre>
-<p>ID: <strong>15</strong></p>
+<p>ID: <strong>P-05</strong></p>
 </div>
+</div>
+<div id="series" class="section level4">
+<h4>6. Series</h4>
+<p>¿Nombre de la siguiente serie?</p>
+<pre class="r"><code>for (n in 0:10) {
+  cat(((1/sqrt(5))*((1+sqrt(5))/2)**n)-((1/sqrt(5))*((1-sqrt(5))/2)**n), &quot; &quot;)
+}</code></pre>
+<pre><code>## 0  1  1  2  3  5  8  13  21  34  55</code></pre>
+<p>ID: <strong>P-06</strong></p>
 </div>
 
 
@@ -268,5 +279,6 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
+
 </body>
 </html>

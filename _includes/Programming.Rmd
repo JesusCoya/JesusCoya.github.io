@@ -3,7 +3,7 @@
 ```{cpp}
   cout << "Hola Mundo";
 ```
-<span style="color:#103e75">ID: **P-01**</span>
+<span style="color:#103e75">ID: **41**</span>
 
 
 #### 2.Algorítmos Condicionales
@@ -16,7 +16,7 @@
     System.out.println(n + " es número impar");
   }
 ```
-<span style="color:#103e75">ID: **P-02**</span>
+<span style="color:#103e75">ID: **42**</span>
 
 #### 3. Algorítmos Iterativos
 ##### Encontrar la salida del siguiente algorítmo
@@ -28,7 +28,7 @@ for i in range(n):
   
 print(s)
 ```
-<span style="color:#103e75">ID: **P-03**</span>
+<span style="color:#103e75">ID: **43**</span>
 
 #### 4. Algoritmos Recursivos
 ##### 4.1. Encontrar la salida para el siguiente algorítmo recursivo con $n=5$
@@ -40,7 +40,7 @@ public static long factorialRecursivo(int n) {
 	return n*factorialRecursivo(n-1);			
 }
 ```
-<span style="color:#103e75">ID: **P-04**</span>
+<span style="color:#103e75">ID: **44**</span>
 
 ##### 4.2. Encontrar la salida para el siguiente algorítmo recursivo con $n=10$
 ```{java}
@@ -52,7 +52,7 @@ public static int sumaDigRec(int n) {
 	}
 }
 ```
-<span style="color:#103e75">ID: **P-05**</span>
+<span style="color:#103e75">ID: **45**</span>
 
 #### 6. Series
 ¿Nombre de la siguiente serie?
@@ -62,7 +62,7 @@ for (n in 0:10) {
   cat(((1/sqrt(5))*((1+sqrt(5))/2)**n)-((1/sqrt(5))   *((1-sqrt(5))/2)**n), " ")
 }
 ```
-<span style="color:#103e75">ID: **P-06**</span>
+<span style="color:#103e75">ID: **46**</span>
 
 ## Examen
 ### 5. 

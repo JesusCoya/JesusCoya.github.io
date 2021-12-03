@@ -1,15 +1,15 @@
 #### 1. Algebra  
 $$A=\left[ \left(  \frac{5^{-2}\cdot 2^{-\frac{3}{2}} }{3^{-2} \cdot 7^{-\frac{2}{3}}}\right)^{24}  \div \left(  \frac{5^{-3}\cdot 2^{-2} }{3^{-3} \cdot 7^{-1}}\right)^{16}  \right]^{-1}$$
-<span style="color:#103e75">ID: **M-01**</span>
+<span style="color:#103e75">ID: **1**</span>
 
 
 #### 2. Números Complejos
 $$B=\sqrt{\frac{4}{9}} \left( \sqrt{\frac{25}{36}}-\sqrt{-\frac{4}{25}}  \right)$$
-<span style="color:#103e75">ID: **M-02**</span>
+<span style="color:#103e75">ID: **2**</span>
 
 #### 3. Lógica de Proposiciones
 $$C=p \rightarrow q \land p \rightarrow r \leftrightarrow p \rightarrow p \rightarrow  (q \land r)$$
-<span style="color:#103e75">ID: **M-03**</span>
+<span style="color:#103e75">ID: **3**</span>
 
 #### 4. Logarítmos
 Dado el sistema:
@@ -27,7 +27,7 @@ Calcular: $10^x-10^y$:
 * $b$
 * $a+b$
 
-<span style="color:#103e75">ID: **M-04**</span>
+<span style="color:#103e75">ID: **4**</span>
 
 #### 5. Ecuación lineal
 Dada la gráfica, calcular la pendiente de la siguiente función lineal que pasa por el punto $(-4,-2)$ y $(0,2)$:
@@ -42,7 +42,7 @@ abline(h = 0, v = 0,
 points(x=-2,y=-4, lwd=6, col="blue")
 points(x=0,y=2, lwd=6, col="blue")
 ```
-<span style="color:#103e75">ID: **M-05**</span>
+<span style="color:#103e75">ID: **5**</span>
 
 #### 6. Distribución $\chi^2$
 Dada la gráfica, ¿cúal es el valor máximo de $x$?
@@ -54,10 +54,13 @@ for(v in 2:50){
 }
 ```
 
-<span style="color:#103e75">ID: **M-06**</span>
+<span style="color:#103e75">ID: **6**</span>
 
 
 
+#### 7. Distribución $\chi^2$
+
+<span style="color:#103e75">ID: **7**</span>
 
 
 

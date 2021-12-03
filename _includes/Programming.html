@@ -229,10 +229,86 @@ print(s)</code></pre>
 <h4>6. Series</h4>
 <p>¿Nombre de la siguiente serie?</p>
 <pre class="r"><code>for (n in 0:10) {
-  cat(((1/sqrt(5))*((1+sqrt(5))/2)**n)-((1/sqrt(5))*((1-sqrt(5))/2)**n), &quot; &quot;)
+  cat(((1/sqrt(5))*((1+sqrt(5))/2)**n)-((1/sqrt(5))   *((1-sqrt(5))/2)**n), &quot; &quot;)
 }</code></pre>
 <pre><code>## 0  1  1  2  3  5  8  13  21  34  55</code></pre>
 <p><span style="color:#103e75">ID: <strong>P-06</strong></span></p>
+</div>
+<div id="examen" class="section level2">
+<h2>Examen</h2>
+<div id="section" class="section level3">
+<h3>5.</h3>
+<pre class="r"><code>n&lt;-35
+xbar&lt;-559.72
+var2&lt;-50.18
+alpha&lt;-0.01
+
+xbar-(2.58*((sqrt(var2))/(sqrt(n))))</code></pre>
+<pre><code>## [1] 556.6308</code></pre>
+<pre class="r"><code>xbar+(2.58*((sqrt(var2))/(sqrt(n))))</code></pre>
+<pre><code>## [1] 562.8092</code></pre>
+<pre class="r"><code># 556.6308 , 562.8092S</code></pre>
+</div>
+<div id="section-1" class="section level3">
+<h3>6.</h3>
+<pre class="r"><code>n1&lt;-21
+n2&lt;-21
+
+s2_1&lt;-11.69
+s2_2&lt;-46.87
+
+# 95%
+((s2_1)/(s2_2))*qf(0.05/2,n2-1,n1-1)</code></pre>
+<pre><code>## [1] 0.101203</code></pre>
+<pre class="r"><code>((s2_1)/(s2_2))*qf(1-0.05/2,n2-1,n1-1)</code></pre>
+<pre><code>## [1] 0.6146751</code></pre>
+<pre class="r"><code># 0.101203 , 0.6146751</code></pre>
+</div>
+<div id="section-2" class="section level3">
+<h3>7.</h3>
+<pre class="r"><code>n1&lt;-56
+n2&lt;-56
+
+s2_1&lt;-17.86
+s2_2&lt;-59.3
+
+# 99%
+((s2_1)/(s2_2))*qf(0.01/2,n2-1,n1-1)</code></pre>
+<pre><code>## [1] 0.1488336</code></pre>
+<pre class="r"><code>((s2_1)/(s2_2))*qf(1-0.01/2,n2-1,n1-1)</code></pre>
+<pre><code>## [1] 0.6094703</code></pre>
+<pre class="r"><code># 0.1488336 , 0.6094703</code></pre>
+</div>
+<div id="section-3" class="section level3">
+<h3>9.</h3>
+<pre class="r"><code>x&lt;- c(90.76 ,86.32 ,90.56 ,88.76, 95.41, 89.49)
+x</code></pre>
+<pre><code>## [1] 90.76 86.32 90.56 88.76 95.41 89.49</code></pre>
+<pre class="r"><code># z&lt;-(mean(x)-)/()</code></pre>
+</div>
+<div id="section-4" class="section level3">
+<h3>10.</h3>
+<pre class="r"><code>x1&lt;-c(26,24,23,23,25,26,27)
+x2&lt;-c(23,24,22,25,22,22,22)
+
+n1&lt;-7
+n2&lt;-7
+
+# sigma1 = sigma2 
+Sp2&lt;-((n1-1)*var(x1)+(n2-1)*var(x2))/(n1+n2-2)
+Sp2</code></pre>
+<pre><code>## [1] 1.97619</code></pre>
+<pre class="r"><code>t&lt;-(mean(x1)-mean(x2))/(sqrt(Sp2)*sqrt(1/n1+1/n2))
+t</code></pre>
+<pre><code>## [1] 2.661642</code></pre>
+<pre class="r"><code># = 2.661642</code></pre>
+</div>
+<div id="section-5" class="section level3">
+<h3>11.</h3>
+<pre class="r"><code>x&lt;-c(87.50, 89.13, 89.44, 87.57, 89.73, 81.85, 91.99, 89.73, 89.38, 86.41)
+x</code></pre>
+<pre><code>##  [1] 87.50 89.13 89.44 87.57 89.73 81.85 91.99 89.73 89.38 86.41</code></pre>
+</div>
 </div>
 
 

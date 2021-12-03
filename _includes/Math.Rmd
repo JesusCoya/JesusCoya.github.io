@@ -58,11 +58,3 @@ for(v in 2:50){
 
 
 
-#### 7. Distribución $\chi^2$
-
-<span style="color:#103e75">ID: **7**</span>
-
-
-
-
-

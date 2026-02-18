@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi cv</title>
+
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .izquierda {
+        flex: 1;
+        background-color: rgb(221, 221, 221);
+        padding: 50px;
+      }
+      .derecha {
+        flex: 1;
+        background-color: rgb(47, 72, 100);
+        display: flex;
+        flex-direction: column;
+        align-items: center; /*alinear horizontal*/
+        justify-content: center; /*alinear verticalmente*/
+      }
+      img {
+        width: 400px;
+        margin-top: 20px;
+      }
+      h1 {
+        color: white;
+        margin-bottom: 0px;
+      }
+
+      .pepe {
+        color: white;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="izquierda">
+      <h2>Datos personales</h2>
+      <p>Ceja</p>
+      <p>60648553</p>
+      <p>Estudiante</p>
+
+      <h2>Experiencia</h2>
+      <p>1. Mejor alumno del colegio</p>
+      <p>2. Docente de umsa</p>
+      <p>3. Experto en redes</p>
+
+      <h2>Sobre mi</h2>
+      <p>Puntual</p>
+      <p>Futbol</p>
+      <p>Pro-activo</p>
+    </div>
+
+    <div class="derecha">
+      <h1>Lic. Jesús Coya</h1>
+      <p class="pepe">Ing. Sistemas | Lic. Informática</p>
+      <img src="perfil.png" />
+    </div>
+  </body>
+</html>
